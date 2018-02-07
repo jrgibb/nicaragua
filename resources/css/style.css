@@ -21,6 +21,7 @@ h1{
   background-color: #333;
   color: white;
   padding: 14px 16px;
+  text-align: center;
 }
 
 .topnav{
@@ -33,7 +34,7 @@ h1{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
+    float: center;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -51,4 +52,88 @@ h1{
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.nightlife {
+  background-image: url(https://media.giphy.com/media/Um27tTsg0mSdO/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 5px 5px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+  border: 10px solid white;
+  position: relative;
+}
+
+.nightlife a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.nightlife a:hover {
+    text-decoration-line: underline;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.nightlife a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+h3{
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.daytrips {
+  background-image: url(http://www.visitnicaragua.us/wp-content/uploads/2011/09/Sandboarding-Volc%C3%A1n-Cerro-Negro1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 5px 5px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+}
+
+.daytrips a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.daytrips a:hover {
+    text-decoration-line: underline;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.daytrips a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.headline {
+  border: 10px solid white;
+  position: relative;
 }
